@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--
+        CSS
+           -(X)HTML 파일의 스타일을 지정할 때 사용하는 언어.
+           -웹 문서의 전반적인 스타일을 미리 지정해 둔 스타일시트 언어.
+           -단순 규칙으로 이루어진 텍스트.
+           -CSS에 있는 각각의 문장들
+                :지정된 대상과
+                 그 대상의 속성,
+                 그 속성들에 적응하기위한 스타일로 구성.
+           -웹 기술의 세가지 핵심요소.
+                :언어적 측면.
+                 HTML(명사), CSS(형용사,부사), JavaScript(동사)
+           -장점 : 디자인과 웹 구조의 완벽한 분리.
+                  작은 용량, 이해하기 쉬운 구조.
+           -CSS는 CSS1부터 CSS3까지 버전이 계속 발전해오고 있음.
+                  1)CSS1 : W3C는 1996년 첫번째 CSS 공식버전 발표.
+                  2)CSS2 : 1998년 발표, 현대 브라우저에서 가장 많이 채택,사용되고 있음.
+                  3)CSS3 : 명세를 분할해서 계속 버전업하고 있음.
+           -CSS의 동작 방식
+                  1)방문자가 웹 페이지 열기
+                  2)서버는 HTML 파일과 연결되거나 HTML 파일에 포장된
+                  다른 파일과 함께 HTML 파일을 방문자 컴퓨터로 전송
+                  3)방문자 브라우저는 CSS를 해석(파싱)하고 이를 HTML에 적용.
+                  4)브라우저는 랜더링 엔진을 사용해 웹 페이지를 랜더링하고
+                    이를 브라우저 창에 출력.
+           -CSS 규칙의 종류 : HTML 선택자, 클래스, ID
+                  1)(tag)선택자 : CSS 규칙에서 특정 태그가 보이는 방식을 재정의.
+                                 스타일 적용함.
+                                 특정 태그를 선택하여 해당 태그의 속성을 변경.
+                     * 선택자 : 문서 전체를 선택.
+                  2)클래스 : 다수의 엘리먼트에 스타일을 적용하고자 할때 사용.
+                  3)ID : 클래스 선택자와 적용이 비슷함.
+           -HTML에서 CSS를 사용하는 방법
+              1)인라인 스타일 : 한 줄짜리 스타일을 뜻함.
+               -태그 안에 직접 지정하여 사용(HTML과 섞어서 사용)
+               -태그에 직접 스타일을 지정할 때 손쉽게 이용할수 있음.
+               -많이 작성할 경우 나중에 어느 곳에 있는지 알아내기 어려움.
+               ==>유지,보수 면에서 가급적 사용 자제하는 것이 좋음.
+              2)내부 스타일 : HTML 파일 안에 별도 영역으로 스타일을 정의함.
+                        -일반적으로 <head>..</head>안에서 사용.
+                        -영향을 주는 범위는 페이지 안의 전체 태그.
+                        -HTML 문서 하나가 고유한 CSS 내용을 가질 때 사용.
+              3)외부 스타일 : 스타일 내용을 별도의 페이지로 빼서 사용하는 방법.
+                        -하나의 스타일로 여러 개의 HTML 페이지에 적용,사용.
+                        ==>유지 및 보수가 편리.
+                        -각각의 HTML 페이지 문서는 <head>색션안에 <link> 태그를 사용
+                        ==>스타일 페이지와 연결.
+    -->
+    <link rel="stylesheet" href="css/0.style.css"/>
+</head>
+<body>
+    <h1>CSS 사용한 후 텍스트 색!!</h1>
+    <p>CSS를 사용하여 간편하게 텍스트의 색을 변경할수 있다!!</p>
+    <p style="background-color: red; color:white;">인라인 스타일!!</p>
+
+    <div id="wrap">
+        <div id="content">
+            <h1>CONTENT</h1>
+            <ul>
+                <li class="menu1">Mac</li>
+                <li class="menu1">iPad</li>
+                <li class="menu1">iPhone</li>
+                <li class="menu1">Watch</li>
+                <li class="menu1">TV</li>
+            </ul>
+            <ol>
+                <li class="menu1">MacBook</li>
+                <li class="menu2">MacBook Air</li>
+                <li class="menu3">MacBook Pro</li>
+                <li class="menu4">iMac</li>
+                <li class="menu5">Mac Pro</li>
+                <li class="menu5">Mac mini</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+/**{
+  margin:0; padding:0;
+}*/
+h1,p{
+    color: blue;
+    text-decoration: underline;
+}
+.menu1{
+    color: #1822e2;
+    font-weight: bold;
+}
+.menu1,.menu3,.menu5{
+    font-size: 20px;
+}
+#wrap{
+    width: 500px;
+    background-color: #66dfb6;
+    border: 1px solid #808080;
+    text-align: center;
+}
+#content{
+    width: 350px;
+    border: 1px solid red;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
